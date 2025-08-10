@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import Scene from './Scene'
 import { OrbitControls, OrthographicCamera } from "@react-three/drei";
 import { Canvas, useFrame } from '@react-three/fiber';
@@ -11,7 +11,7 @@ const Experience = () => {
   
   const cameraRef = useRef();
   const pointerRef = useRef({ x: 0, y: 0});
-
+  const [loading, setLoading] = useState(true);  // Track loading state
 
   const { isMobile } = useResponsiveStore();
 
@@ -20,7 +20,9 @@ const Experience = () => {
   }
 
   
-
+const handleLoaded = () => {
+    setLoading(false);
+  }
  
 
   useEffect(()=>{
@@ -58,6 +60,21 @@ const Experience = () => {
   
   return (
     <>
+    {/* Loader overlay shown while loading */}
+      {loading && (
+        <div style={{
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          fontSize: '1.5rem',
+          color: '#888',
+          userSelect: 'none',
+          pointerEvents: 'none',
+          zIndex: 1000,
+        }}>
+        </div>
+      )}
       <Canvas>
         <OrthographicCamera 
 
@@ -70,7 +87,13 @@ const Experience = () => {
         />
         {/* <OrbitControls /> */}
 
-        <Scene camera={cameraRef} pointerRef={pointerRef} />
+        <React.Suspense fallback={null}>
+          <Scene 
+            camera={cameraRef} 
+            pointerRef={pointerRef} 
+            onLoad={handleLoaded}  // Pass handler to Scene
+          />
+        </React.Suspense>
     </Canvas>
     </>
   )

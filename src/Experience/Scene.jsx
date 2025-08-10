@@ -1,8 +1,11 @@
-import React, { Suspense, useRef } from 'react';
+import React, { lazy, Suspense, useRef } from 'react';
 import * as THREE from "three";
-import Room from  "./models/Sharliz-Portfolio-v4";
-import Hitbox from "./models/DeskHitbox";
 import { useFrame } from '@react-three/fiber';
+
+const Room = lazy(() => import("./models/Sharliz-Portfolio-v4"));
+const Hitbox = lazy(() => import("./models/DeskHitbox"));
+
+
 
 const Scene = ({camera, pointerRef}) => {
 
