@@ -110,8 +110,6 @@ const SidePanel = () => {
         <p>Gesture recognition - closed fist to grab objects</p>
         <video src="/videos/XR/Demo Sample 3.mp4" loop muted autoPlay playsInline />
         <p>Level Design - Dollhouse performance optimization</p>
-        <video src="/videos/XR/Demo Sample 4.mp4" loop muted autoPlay playsInline />
-        <p>Full Stadium - Niagara and sequencer implementation</p>
       </CollapsibleSection>
       <CollapsibleSection title="Meteor Studio">
         <h3>Hurricane Heroes (2024)</h3>
