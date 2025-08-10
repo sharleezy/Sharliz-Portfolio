@@ -15,9 +15,10 @@ export default function Model(props) {
   const newMaterials = convertMaterialsToBasic(materials)
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Plane.geometry} material={materials.Ground} position={[10.016, 0, 8.976]} scale={0.665} />
+      <mesh geometry={nodes.Plane.geometry} material={newMaterials.Ground} position={[10.016, 0, 8.976]} scale={0.665} />
       <mesh geometry={nodes.BaseRoom.geometry} material={newMaterials.BakedTexture} />
       <mesh geometry={nodes.Desk.geometry} material={newMaterials.BakedDesk}>
+        
         <mesh geometry={nodes.구체.geometry} material={newMaterials.STEEL} />
         <mesh geometry={nodes.구체_1.geometry} material={newMaterials.Light} />
       </mesh>
