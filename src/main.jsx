@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import DevWorkPage from './pages/DevWorkPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
+import ResumePage from './pages/ResumePage.jsx';
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/Sharliz-Portfolio">
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<HomePage />} />
           <Route path="dev-work" element={<DevWorkPage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="experience" element={<ResumePage />} />
         </Route>
       </Routes>
     </BrowserRouter>
