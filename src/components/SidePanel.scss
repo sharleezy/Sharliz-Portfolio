@@ -130,6 +130,61 @@
   margin-bottom: 1rem;
 }
 
+/* Resume-style job experience formatting */
+.resume-section {
+  margin-top: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ddd;
+}
+
+.resume-job {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1.5rem;
+}
+
+.resume-job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.resume-job-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.resume-job-duration {
+  font-size: 1rem;
+  color: #999;
+  font-style: italic;
+}
+
+.resume-job-responsibilities {
+  margin-top: 0.75rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-job-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .resume-job-duration {
+    font-size: 0.9rem;
+  }
+}
 
 
 

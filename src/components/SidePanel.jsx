@@ -146,6 +146,23 @@ const SidePanel = () => {
       )}
               <h1 className="panel-header">{panelContent.title}</h1>
               <p className="panel-content-description">{panelContent.content}</p>
+
+               {panelContent.experience && (
+        <section className="panel-experience-section">
+          <h2>Experience</h2>
+          {panelContent.experience.map((job, index) => (
+            <div key={index} className="experience-item">
+              <h3 className="job-title">{job.title}</h3>
+              <p className="job-duration">{job.duration}</p>
+              <ul className="job-responsibilities">
+                {job.responsibilities.map((resp, i) => (
+                  <li key={i}>{resp}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      )}
             </>
           )}
 

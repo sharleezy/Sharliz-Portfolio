@@ -1,12 +1,34 @@
 {
-    "Dev_Work_Hitbox": {
-        "title": "Development Work",
-        "content": "Prototyped and developed VR tools and interactive XR experiences in Unreal Engine to aid in virtual and film production, such as building .exes and .apks and mapping to controller input. Check out some key features: "
-    },
-    "About_Hitbox": {
-        "title": "About Me",
-        "content": "Hi, I'm Sharliz! I’m a creative problem solver who loves finding quick, effective solutions and bringing ideas to life. With experience in multimedia design and game development and an interest for UI/UX, I enjoy mixing technical skills with imagination to make things that are fun, useful, and visually engaging. I’m always up for trying new things, staying active, and finding inspiration in unexpected places. Whether it’s social media, game design, 3D art, event planning, marketing, or brand and product design, I’m excited to put my creativity to work in ways that make an impact.",
-        "image": "/Sharliz-Portfolio/images/Portrait.webp"
-    }
-
+  "Dev_Work_Hitbox": {
+    "title": "Development Work",
+    "content": "Prototyped and developed VR tools and interactive XR experiences in Unreal Engine to aid in virtual and film production, such as building .exes and .apks and mapping to controller input. Check out some key features: "
+  },
+  "About_Hitbox": {
+    "title": "About Me",
+    "content": "Hi, I'm Sharliz! I’m a creative problem solver who loves finding quick, effective solutions and bringing ideas to life. With experience in multimedia design and game development and an interest for UI/UX, I enjoy mixing technical skills with imagination to make things that are fun, useful, and visually engaging. I’m always up for trying new things, staying active, and finding inspiration in unexpected places. Whether it’s social media, game design, 3D art, event planning, marketing, or brand and product design, I’m excited to put my creativity to work in ways that make an impact.",
+    "image": "/Sharliz-Portfolio/images/Portrait.webp"
+  },
+  "Resume_Hitbox": {
+    "title": "My Work Experience",
+    "experience": [
+      {
+        "title": "QA Engineer at Apple",
+        "duration": "Jan 2024 - Present",
+        "responsibilities": [
+          "Test Apple Vision Pro hardware and software",
+          "Create automated test cases using JavaScript",
+          "Collaborate with cross-functional teams to identify defects"
+        ]
+      },
+      {
+        "title": "3D Modeler / VR Developer",
+        "duration": "May 2021 - Dec 2023",
+        "responsibilities": [
+          "Developed interactive VR experiences using Unreal Engine",
+          "Optimized 3D assets for mobile and headset performance",
+          "Implemented debugging tools to streamline testing"
+        ]
+      }
+    ]
+  }
 }
