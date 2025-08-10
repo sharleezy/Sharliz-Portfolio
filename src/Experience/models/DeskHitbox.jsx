@@ -72,4 +72,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/models/DeskHitbox.glb')
+useGLTF.preload('/Sharliz-Portfolio/models/DeskHitbox.glb')

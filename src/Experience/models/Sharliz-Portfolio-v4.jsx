@@ -8,7 +8,7 @@ import { useGLTF } from '@react-three/drei'
 import { convertMaterialsToBasic } from '../utils/convertToBasic';
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/models/Sharliz-Portfolio-v4.glb')
+  const { nodes, materials } = useGLTF('/Sharliz-Portfolio/models/Sharliz-Portfolio-v4.glb')
   console.log(nodes);
   
 
@@ -28,4 +28,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/models/Sharliz-Portfolio-v4.glb')
+useGLTF.preload('/Sharliz-Portfolio/models/Sharliz-Portfolio-v4.glb')
