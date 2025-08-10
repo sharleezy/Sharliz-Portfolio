@@ -3,8 +3,11 @@
   bottom: 5%;
   left: 5%;
   z-index: 100;
-  display: flex;
-  gap: 10px; // space between buttons
+  
+  display: grid;
+  grid-template-columns: repeat(2, auto);  // 2 columns
+  grid-template-rows: repeat(2, auto);     // 2 rows
+  gap: 10px;  // space between buttons both horizontally and vertically
 }
 
 .menu-button {

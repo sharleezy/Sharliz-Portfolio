@@ -149,7 +149,6 @@ const SidePanel = () => {
 
                {panelContent.experience && (
         <section className="panel-experience-section">
-          <h2>Experience</h2>
           {panelContent.experience.map((job, index) => (
             <div key={index} className="experience-item">
               <h3 className="job-title">{job.title}</h3>
