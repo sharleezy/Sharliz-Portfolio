@@ -8,7 +8,7 @@ import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/Sharliz-Portfolio">
       <Routes>
         <Route path="/" element={<App />} >
           <Route index element={<HomePage />} />
