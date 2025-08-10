@@ -12,21 +12,41 @@
     "title": "My Work Experience",
     "experience": [
       {
-        "title": "QA Engineer at Apple",
-        "duration": "Jan 2024 - Present",
+        "title": "Game Engine Developer at Voyre",
+        "duration": "July 2024 - Present",
         "responsibilities": [
-          "Test Apple Vision Pro hardware and software",
-          "Create automated test cases using JavaScript",
-          "Collaborate with cross-functional teams to identify defects"
+          "Developed interactive XR experiences in Unreal Engine to aid in virtual and film production",
+          "Edit mono/stereoscopic 360 and 180 footage in Resolve",
+          "Created and managed 3D assets and contributed to the UI/UX design of VR environments, including Gaussian splat capture techniques",
+          "Analyzed Meta Quest 3 performance data, and conducted rigorous post-development QA tests for optimization"
         ]
       },
       {
-        "title": "3D Modeler / VR Developer",
-        "duration": "May 2021 - Dec 2023",
+        "title": "XR Creative Developer at Meteor Studio",
+        "duration": "Feb 2023 - July 2024",
         "responsibilities": [
-          "Developed interactive VR experiences using Unreal Engine",
-          "Optimized 3D assets for mobile and headset performance",
+          "Created and integrated over 30 3D assets, motion graphics, and UI designs in Unity for a VR/desktop educational classroom experience",
+          "Implemented Unity terrain, lighting, and level design for XR experiences across desktop and VR platforms",
           "Implemented debugging tools to streamline testing"
+        ]
+      },
+       {
+        "title": "Volumetric Capture Researcher at Thunderbird",
+        "duration": "Feb 2024 - April 2024",
+        "responsibilities": [
+          "Researched 3D capture technology such as photogrammetry, gaussian splat, LiDAR, and NERFs",
+          "Implemented 4D and 3D video file assets in Unity",
+          "Use PolyCam and Luma to 3D scan 10+ objects and environments into .ply/.obj files"
+        ]
+      },
+      {
+        "title": "Design, Communications, and Social Media Intern at Sports Philanthropy Network",
+        "duration": "May 2022 - Aug 2022",
+        "responsibilities": [
+          "Designed 6 to 8 variations of official logos for the launch of 2 new SPN programs",
+          "Created 10+ graphics a week for social media and podcasts",
+          "Managed and posted on the SPN TikTok page daily gaining 30+ followers",
+          "Prepared WordPress pages weekly for podcast guests, including editing graphics and podcasts"
         ]
       }
     ]
