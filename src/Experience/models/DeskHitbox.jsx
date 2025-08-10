@@ -15,9 +15,8 @@ export default function Model(props) {
 
   const { openPanel } = useUiStore();
 
-  const basePath = process.env.PUBLIC_URL || '';
 
-  const { nodes, materials } = useGLTF(`${basePath}/models/DeskHitbox.glb`);
+  const { nodes, materials } = useGLTF('/Sharliz-Portfolio/models/DeskHitbox.glb');
 
   const whiteMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
 
