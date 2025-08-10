@@ -5,7 +5,7 @@ import SidePanel from "./components/SidePanel";
 import Experience from './Experience/Experience';
 import Menu from "./components/Menu";
 import { useResponsiveStore } from "./stores/useResponsiveStore";
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 
 function App() {
 

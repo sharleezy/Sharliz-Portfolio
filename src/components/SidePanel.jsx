@@ -3,7 +3,7 @@ import "./SidePanel.scss";
 import { useUiStore } from "../stores/uiStore";
 import gsap from "gsap";
 import { useResponsiveStore } from '../stores/useResponsiveStore';
-import { useNavigate } from "react-router"; // ✅ make sure it's from react-router-dom
+import { useNavigate } from "react-router-dom"; // ✅ make sure it's from react-router-dom
 import CollapsibleSection from './CollapsibleSection';
 
 const SidePanel = () => {
