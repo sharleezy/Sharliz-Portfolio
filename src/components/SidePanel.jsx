@@ -91,10 +91,8 @@ const SidePanel = () => {
       <CollapsibleSection title="LOCCOL Set Dress">
         <h3>Virtual Scouting Set Dress Tool</h3>
         <p>Store Object Reference | Transform Adjustments | Input Mapping to Motion Controls</p>
-        <video src="/videos\LOCCOL\SetDress\Lclsetdresssample1 Render.mp4" loop muted autoPlay playsInline />
-        <p>Place Object - Transform XYZ position</p>
         <video src="/videos/LOCCOL/SetDress/Lclsetdresssample2 Render.mp4" loop muted autoPlay playsInline />
-        <p>Rotate Object</p>
+        <p>Transform on XYZ + Rotate Object</p>
         <video src="/videos/LOCCOL/SetDress/Lclsetdresssample3 Render.mp4" loop muted autoPlay playsInline />
         <p>Place Multiple Objects - stores a reference to object</p>
         <video src="/videos\LOCCOL\SetDress/Lclsetdresssample4 Render.mp4" loop muted autoPlay playsInline />
@@ -125,10 +123,6 @@ const SidePanel = () => {
         <video src="/videos/MeteorStudio/Hurricaneheroesuiclip.mp4" loop muted autoPlay playsInline />
         <p>UI/UX Design + Motion Graphics</p>
         
-      </CollapsibleSection>
-      <CollapsibleSection title="Student Reel 2023-2024">
-        <h3>Honorable Mention</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bU-4tqP9F1E?si=tWNuA8BoWthJAuvH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </CollapsibleSection>
     </div>
   );
