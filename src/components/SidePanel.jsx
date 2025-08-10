@@ -78,47 +78,47 @@ const SidePanel = () => {
       <CollapsibleSection title="LOCCOL Camera">
         <h3>Virtual Scouting Camera Tool</h3>
         <p>UI/UX Design | Level Streaming | Widget communication | Guassian Splats | EXE deployment</p>
-        <video src="/videos\LOCCOL\Camera\Lcldemosample1 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/Camera/Lcldemosample1 Render.mp4" loop muted autoPlay playsInline />
         <p>UI Menu - 3 second hold to select animation</p>
-        <video src="/videos/LOCCOL/Camera/Lclcamerasample3 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/Camera/Lclcamerasample3 Render.mp4" loop muted autoPlay playsInline />
         <p>Place Camera Tool - Storyboarding</p>
-        <video src="/videos/LOCCOL/Camera/Lcldrawsample2 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/Camera/Lcldrawsample2 Render.mp4" loop muted autoPlay playsInline />
         <p>Markup Tool - for Director's notes, etc.</p>
-        <video src="/videos\LOCCOL\Camera\Lcluisample4 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/Camera/Lcluisample4 Render.mp4" loop muted autoPlay playsInline />
         <p>Widget interaction - Adjust Camera settings</p>
       </CollapsibleSection>
 
       <CollapsibleSection title="LOCCOL Set Dress">
         <h3>Virtual Scouting Set Dress Tool</h3>
         <p>Store Object Reference | Transform Adjustments | Input Mapping to Motion Controls</p>
-        <video src="/videos/LOCCOL/SetDress/Lclsetdresssample2 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/SetDress/Lclsetdresssample2 Render.mp4" loop muted autoPlay playsInline />
         <p>Transform on XYZ + Rotate Object</p>
         <video src="/videos/LOCCOL/SetDress/Lclsetdresssample3 Render.mp4" loop muted autoPlay playsInline />
         <p>Place Multiple Objects - stores a reference to object</p>
-        <video src="/videos\LOCCOL\SetDress/Lclsetdresssample4 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/SetDress/Lclsetdresssample4 Render.mp4" loop muted autoPlay playsInline />
         <p>Delete - Highlighted mesh represents selected object</p>
       </CollapsibleSection>
 
       <CollapsibleSection title="XR Interactive Demo">
         <h3>Mixed Reality Voyre Reel</h3>
         <p>VR/AR/MR | Hand Tracking | Gesture Recognition | Performance Optimization | APK deployment</p>
-        <video src="/videos/XR/Demo Sample 1-2.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/XR/Demo Sample 1-2.mp4" loop muted autoPlay playsInline />
         <p>Mixed Reality - follows HMD Tracking</p>
-        <video src="/videos/XR/Demo Sample 1.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/XR/Demo Sample 1.mp4" loop muted autoPlay playsInline />
         <p>XR interaction - Touching glasses start the demo</p>
-        <video src="/videos/XR/Demo Sample 2.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/XR/Demo Sample 2.mp4" loop muted autoPlay playsInline />
         <p>Gesture recognition - closed fist to grab objects</p>
-        <video src="/videos/XR/Demo Sample 3.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/XR/Demo Sample 3.mp4" loop muted autoPlay playsInline />
         <p>Level Design - Dollhouse performance optimization</p>
       </CollapsibleSection>
       <CollapsibleSection title="Meteor Studio">
         <h3>Hurricane Heroes (2024)</h3>
         <p>3D Modeling | Texture Baking | UX/UI Design | Graphic Design | Lighting</p>
-        <video src="/videos/MeteorStudio/Planescene.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/MeteorStudio/Planescene.mp4" loop muted autoPlay playsInline />
         <p>3D modeling and design</p>
-        <video src="/videos/MeteorStudio/Newsroomscene2.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/MeteorStudio/Newsroomscene2.mp4" loop muted autoPlay playsInline />
         <p>Graphic Design</p>
-        <video src="/videos/MeteorStudio/Hurricaneheroesuiclip.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/MeteorStudio/Hurricaneheroesuiclip.mp4" loop muted autoPlay playsInline />
         <p>UI/UX Design + Motion Graphics</p>
         
       </CollapsibleSection>
