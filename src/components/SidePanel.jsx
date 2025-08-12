@@ -93,7 +93,7 @@ const SidePanel = () => {
         <p>Store Object Reference | Transform Adjustments | Input Mapping to Motion Controls</p>
         <video src="/Sharliz-Portfolio/videos/LOCCOL/SetDress/Lclsetdresssample2 Render.mp4" loop muted autoPlay playsInline />
         <p>Transform on XYZ + Rotate Object</p>
-        <video src="/videos/LOCCOL/SetDress/Lclsetdresssample3 Render.mp4" loop muted autoPlay playsInline />
+        <video src="/Sharliz-Portfolio/videos/LOCCOL/SetDress/Lclsetdresssample3 Render.mp4" loop muted autoPlay playsInline />
         <p>Place Multiple Objects - stores a reference to object</p>
         <video src="/Sharliz-Portfolio/videos/LOCCOL/SetDress/Lclsetdresssample4 Render.mp4" loop muted autoPlay playsInline />
         <p>Delete - Highlighted mesh represents selected object</p>
